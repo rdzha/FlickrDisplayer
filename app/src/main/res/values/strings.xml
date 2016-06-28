@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">FlickrDisplayer</string>
+    <string name="search_hint">Search Photos</string>
+    <string name="error">Error</string>
+    <string name="display_as_list">Display as list</string>
+    <string name="display_as_grid">Display as grid</string>
+    <string name="image_transition">img</string>
+</resources>

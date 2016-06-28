@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/search"
+        android:title="@string/search_hint"
+        app:showAsAction="collapseActionView|ifRoom"
+        android:icon="@drawable/ic_search_white_24dp"
+        app:actionViewClass="android.support.v7.widget.SearchView" />
+    <item
+        android:id="@+id/action_list"
+        android:icon="@drawable/ic_view_list_white_24dp"
+        app:showAsAction="ifRoom"
+        android:title="@string/display_as_list"/>
+    <item
+        android:id="@+id/action_grid"
+        android:icon="@drawable/ic_grid_on_white_24dp"
+        app:showAsAction="ifRoom"
+        android:title="@string/display_as_grid"/>
+</menu>
